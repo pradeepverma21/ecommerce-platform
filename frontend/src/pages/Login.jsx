@@ -56,12 +56,7 @@ const Login = () => {
             </div>
           )}
 
-          {/* Demo Credentials */}
-          <div className="mb-6 p-4 bg-blue-50 border border-blue-200 rounded">
-            <p className="text-sm font-semibold text-blue-800 mb-2">Demo Credentials:</p>
-            <p className="text-sm text-blue-700">Admin: admin@ecommerce.com / admin123</p>
-            <p className="text-sm text-blue-700">User: user@ecommerce.com / user123</p>
-          </div>
+         
 
           {/* Form */}
           <form onSubmit={handleSubmit} className="space-y-6">
